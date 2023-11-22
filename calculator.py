@@ -8,7 +8,7 @@ root.title('calculator')
 tb=Entry(root,font=('arial',23))
 tb.grid(row=0,column=0,columnspan=4)
 
-def click():
+def click(t):
     if(t=='C'):
         tb.delete(0,END)
     elif(t=='X'):
